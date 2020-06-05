@@ -1,12 +1,11 @@
 class Vector:
     """
-    A class describing 2D and 3D vectors and their properties.
+    A class describing generic 2D & 3D vectors and their properties.
     """
-    def __init__(self, i, j, k):
+    def __init__(self, i, j, k = None):
         self.i = i
         self.j = j
         self.k = k
-
 
     def dot_product(self, other):
         """
@@ -30,4 +29,3 @@ class Vector:
 
         return(dp, insight)
 
-    
